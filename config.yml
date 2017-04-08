@@ -1,15 +1,29 @@
+  # Link lấy music:
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
 prefix: '&7&l[&a&lLAGG CHAT&7&l] &r> '
+
 help:
-  '1': '&e/lc tatca &fxóa tất cả chat toàn bộ máy chủ'
-  '2': '&e/lc banthan &fxóa chat của bản thân'
-  '3': '&e/lc reload &fkhởi động lại plugin'
+  1: '&e/laggchat tatca &fxóa tất cả chat toàn bộ máy chủ'
+  2: '&e/laggchat banthan &fxóa chat của bản thân'
+  3: '&e/laggchat reload &fkhởi động lại plugin'
+  4: '&eBạn có thể dùng lệnh rút gọn &a/lc'
+  
 message:
-  clear-all: '&cCHAT ĐÃ ĐƯỢC XÓA BỞI &7'
+  clear-all: '&cCHAT ĐÃ ĐƯỢC XÓA BỞI &7%p'
   clear: '&cCHAT ĐÃ ĐƯỢC DỌN SẠCH!'
   no-perm: '&cBạn không có quyền để làm việc này!'
   reload: '&aPlugin đã được reload'
-  broadcast: '&cCHAT ĐÃ ĐƯỢC XÓA BỞI &7'
-  broadcast-actionbar: '&cCHAT ĐÃ ĐƯỢC XÓA BỞI &7'
+  broadcast: '&cCHAT ĐÃ ĐƯỢC XÓA BỞI &7%p'
+
 title:
   title: '&a&lHOÀN TẤT!'
   subtitle: '&fBạn đã dọn sạch khung chat'
+  reload-title: '&a&lRELOAD CONFIGURATION!'
+  reload-subtitle: '&fConfig, plugin đã được reload'
+  
+music:
+  tatca: 'ENTITY_PLAYER_LEVELUP'
+  banthan: 'BLOCK_NOTE_PLING'
+  trogiup: 'ITEM_SHIELD_BLOCK'
+  reload: 'BLOCK_LEVER_CLICK'
+  no-perm: 'ITEM_SHIELD_BREAK'
